@@ -1,0 +1,24 @@
+@import './theme.scss';
+
+.title-bar {
+  display: flex;
+  color: #ccc;
+  flex-direction: row;
+  align-items: stretch;
+  height: 34px;
+
+  &-icon {
+    color: $color-green;
+  }
+  &-main {
+    margin: auto;
+  }
+}
+.rc-menu {
+  outline: none;
+  margin-bottom: 0;
+  padding-left: 0; // Override default ul/ol
+  list-style: none;
+  color: #ccc;
+  font-size: 12px;
+}
