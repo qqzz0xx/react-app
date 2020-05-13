@@ -7,9 +7,7 @@ function App() {
   return (
     <div className="app-shell">
       <TitleBar />
-      <div className="app-main">
-        <TitleBar />
-      </div>
+      <div className="app-main"></div>
       <StatusBar />
     </div>
   );
